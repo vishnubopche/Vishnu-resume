@@ -6,8 +6,13 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 900px;
+  width: 90%;
   margin: auto;
   background: #fff;
   padding: 30px;
@@ -53,16 +58,18 @@ footer {
   font-style: italic;
 }
 body {
-  font-family: 'Inter', sans-serif;
-  background: #f1f4f9;
-  color: #333;
-  margin: 0;
-  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f9f9f9;
+  color: #2c3e50;
 }
+h1, h2 {
+  font-family: "Segoe UI", sans-serif;
+}
+
 
 .container {
   max-width: 960px;
-  margin: 40px auto;
+  margin: 20px auto;
   background: #fff;
   border-radius: 12px;
   padding: 40px;
@@ -124,10 +131,62 @@ ul {
   line-height: 1.7;
 }
 
+form {
+  max-width: 500px;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+button {
+  background: #2b8cd2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+
 footer {
   text-align: center;
   font-size: 0.9rem;
   margin-top: 40px;
   font-style: italic;
   color: #666;
+}
+
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container {
+    padding: 15px;
+    margin-top: 30px;
+  }
+
+  section ul li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+  }
 }
