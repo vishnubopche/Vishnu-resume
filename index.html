@@ -5,30 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vishnu Bopche - Resume</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>Vishnu Bopche</h1>
+      <h1><span id="typed-name"></span></h1>
       <p>Sairam Colony, Semra Gate, Chandbarh, Bhopal (M.P.) - 462010</p>
       <p>Email: <a href="mailto:vishnubopche884@gmail.com">vishnubopche884@gmail.com</a> | Phone: +91 9301177540</p>
     </header>
 
-    <section>
+    <section id="career" data-aos="fade-up">
       <h2>Career Objective</h2>
       <p>To take up a challenging career and grow with honesty, good relationships, and best performance. To translate my experience, knowledge, skills, and abilities into value for an organization.</p>
     </section>
 
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li>B.Tech (CSE), RGPV University, Bhopal - Pursuing</li>
-        <li>12th - MP Board (2021): 77.2%</li>
-        <li>10th - MP Board (2019): 77%</li>
-      </ul>
-    </section>
+    <section id="education">
+  <h2>Education Timeline</h2>
+  <div class="timeline">
+    <div class="event">
+      <h3>B.Tech (CSE) - RGPV, Bhopal</h3>
+      <p>Pursuing (2021 - Present)</p>
+    </div>
+    <div class="event">
+      <h3>12th - MP Board</h3>
+      <p>77.2% - 2021</p>
+    </div>
+    <div class="event">
+      <h3>10th - MP Board</h3>
+      <p>77% - 2019</p>
+    </div>
+  </div>
+</section>
 
-    <section>
+
+    <section id="skills" data-aos="fade-up">
       <h2>Technical Skills</h2>
       <ul>
         <li>Languages/Front-End: HTML, CSS, JavaScript</li>
@@ -39,33 +52,36 @@
       </ul>
     </section>
 
-    <section>
+   <section id="projects" data-aos="fade-up">
       <h2>Projects</h2>
       <ul>
         <li>
-  <strong>🌦️ Weather Forecasting Website</strong><br>
-  A responsive web application built using <strong>HTML, CSS, and JavaScript</strong> with integration of <strong>OpenWeatherMap API</strong>.  
-  Features include:
-  <ul>
+   <strong>Weather Forecasting Website</strong> – 
+   <a href="https://github.com/vishnubopche/Weather-website">GitHub</a><br>
+   A responsive web application built using <strong>HTML, CSS, and JavaScript</strong> with integration of <strong>OpenWeatherMap API</strong>.  
+   <br>
+   Features include:
+   <ul>
     <li>Search weather by city or village name</li>
     <li>Displays temperature, humidity, wind speed, and weather description with icons</li>
     <li>Grid layout for popular cities with instant weather info</li>
     <li>Responsive design with smooth layout and mobile support</li>
     <li>Customized result cards with local weather background images</li>
-  </ul>
-</li>
+   </ul>
+   </li>
 
-        <li>
-          <strong>Online Grocery Management System</strong><br/>
-          Tech: MERN Stack<br/>
-          E-commerce platform with admin dashboard, product listing, and order tracking.
-        </li>
-        <li>
-          <strong>AI-Based Learning Platform</strong><br/>
-          Tech: Python, HTML, CSS<br/>
-          A responsive AI-learning site with progress tracking and voice control features.
-        </li>
-      </ul>
+
+    <li>
+      <strong>Online Grocery Management System</strong><br/>
+       Tech: MERN Stack<br/>
+       E-commerce platform with admin dashboard, product listing, and order tracking.
+    </li>
+    <li>
+      <strong>AI-Based Learning Platform</strong><br/>
+      Tech: Python, HTML, CSS<br/>
+      A responsive AI-learning site with progress tracking and voice control features.
+    </li>
+    </ul>
     </section>
 
     <section>
@@ -79,6 +95,15 @@
     </section>
 
     <section>
+  <h2>Certifications</h2>
+  <ul>
+    <li>Full-Stack Web Development - Coursera (2024)</li>
+    <li>Python for Everybody - NPTEL (2023)</li>
+    <li>AI in Practice - IBM SkillsBuild (2023)</li>
+  </ul>
+</section>
+
+<section>
       <h2>Personal Information</h2>
       <ul>
         <li>Date of Birth: 28/07/2004</li>
@@ -88,59 +113,46 @@
         <li>Permanent Address: S/o Dinesh Bopche, Ward No. 12, Sharda Chouk, Lawani, Khairlanji, Balaghat - 481335</li>
       </ul>
     </section>
+    <section>
+  <h2>Profile Summary</h2>
+  <p>A passionate Computer Science student with hands-on experience in full-stack development, AI-based projects, and modern web technologies. Seeking roles where I can contribute to real-world solutions and continue learning.</p>
+</section>
 
-    <footer>
+
+
+    
+<section>
+      <h2>Social Media</h2>
+      <ul>
+        <li><strong>GitHub:</strong> <a href="https://github.com/vishnubopche">github.com/vishnubopche</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vishnu-bopche-4b322b239/">linkedin.com/in/vishnubopche</a></li>
+        <li><strong>Twitter:</strong> <a href="https://twitter.com/vishnubopche" >@vishnubopche</a></li>
+      </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formsubmit.co/vishnubopche884@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required><br><br>
+    <input type="email" name="email" placeholder="Your Email" required><br><br>
+    <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+<footer>
       <p>I hereby declare that the above information is true to the best of my knowledge.</p>
       <p><strong>(Vishnu Bopche)</strong></p>
-    </footer>
+      <button onclick="window.print()">Download as PDF</button>
+
+</footer>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="typed,.js"></script>
 </body>
 </html>
-<!-- 🌍 Deploy Your Resume Website on GitHub Pages
-✅ Step-by-Step Instructions
-Create a GitHub Repository
-
-Go to github.com
-
-Create a new repo: vishnu-resume
-
-Keep it Public and initialize with a README
-
-Upload Your Code
-
-On your local machine, make a folder: resume-site/
-
-Put index.html and style.css in it
-
-In VS Code terminal:
-
-bash
-Copy
-Edit
-cd resume-site
-git init
-git remote add origin https://github.com/vishnubopche/Vishnu-resume.git
-git add .
-git commit -m "Initial resume site"
-git push -u origin master
-Enable GitHub Pages
-
-Go to your repo → Settings
-
-Scroll to Pages
-
-Under Source, select main or master branch and /root
-
-GitHub will give you a live link like:
-https://yourusername.github.io/vishnu-resume/
-
-✅ Want Extra Polish?
-Let me know if you want to:
-
-Add a download resume as PDF button
-
-Embed your weather project live demo
-
-Add LinkedIn / GitHub profile links
-
-I'm ready when you are! -->
